@@ -6,7 +6,7 @@ Enter new UNIX password:
 Retype new UNIX password: 
 passwd: password updated successfully
 
-Thứ sáu, 05 Tháng một năm 2018 11:25:45 +07
+Fri Jan  5 10:50:23 +07 2018
 
 cru3l-PE60-6QD
 
