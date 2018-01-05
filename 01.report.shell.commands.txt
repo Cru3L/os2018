@@ -1,0 +1,101 @@
+hello world
+
+Changing password for cru3l.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+Thứ sáu, 05 Tháng một năm 2018 11:25:45 +07
+
+cru3l-PE60-6QD
+
+x86_64
+
+Linux cru3l-PE60-6QD 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+[    0.000000] Linux version 4.10.0-28-generic (buildd@lgw01-12) (gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ) #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 (Ubuntu 4.10.0-28.32~16.04.2-generic 4.10.17)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.10.0-28-generic root=UUID=7c4aa499-0156-4cf7-9c97-27aef752b647 ro quiet splash nouveau.modeset=0
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+[    0.000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+[    0.000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009b7ff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009b800-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000073559fff] usable
+[    0.000000] BIOS-e820: [mem 0x000000007355a000-0x000000007355afff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x000000007355b000-0x00000000735a4fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000735a5000-0x00000000735fbfff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000735fc000-0x0000000073b0cfff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000073b0d000-0x00000000768a1fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000768a2000-0x0000000077332fff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000077333000-0x00000000774d6fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000774d7000-0x0000000077b85fff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x0000000077b86000-0x0000000077ffefff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000077fff000-0x0000000077ffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000078000000-0x00000000780fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000e0000000-0x00000000efffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fe000000-0x00000000fe010fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x0000000281ffffff] usable
+
+11:28:24 up 31 min,  2 users,  load average: 0,23, 0,33, 0,45
+
+cru3l
+
+cru3l    tty1         2018-01-05 17:58
+cru3l    tty7         2018-01-05 17:57 (:0)
+
+uid=1000(cru3l) gid=1000(cru3l) groups=1000(cru3l),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashareuid=1000(cru3l) gid=1000(cru3l) groups=1000(cru3l),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+cru3l    tty1                          Fri Jan  5 17:58   still logged in
+cru3l    tty7         :0               Fri Jan  5 17:57    gone - no logout
+reboot   system boot  4.10.0-28-generi Fri Jan  5 17:56   still running
+cru3l    tty7         :0               Fri Jan  5 17:50 - crash  (00:06)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 17:50   still running
+cru3l    tty7         :0               Fri Jan  5 17:44 - crash  (00:05)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 17:44   still running
+guest-yy tty7         :0               Fri Jan  5 17:42 - crash  (00:01)
+reboot   system boot  4.10.0-28-generi Fri Jan  5 17:42   still running
+guest-nb tty7         :0               Sun Dec 17 00:45 - crash (19+16:56)
+reboot   system boot  4.10.0-28-generi Sun Dec 17 00:45   still running
+guest-7w tty7         :0               Wed Dec 13 02:12 - crash (3+22:33)
+reboot   system boot  4.10.0-28-generi Wed Dec 13 09:04   still running
+cru3l    tty7         :0               Mon Dec 11 16:53 - down   (00:02)
+reboot   system boot  4.10.0-28-generi Mon Dec 11 16:53 - 16:56  (00:03)
+cru3l    tty7         :0               Sat Dec  9 12:46 - 17:50  (05:03)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 12:46 - 16:56 (2+04:10)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 12:44 - 16:56 (2+04:11)
+cru3l    tty7         :0               Sat Dec  9 01:01 - down   (00:27)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 01:00 - 01:28  (00:27)
+cru3l    tty7         :0               Sat Dec  9 00:48 - down   (00:08)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 00:48 - 00:57  (00:09)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 00:44 - 00:57  (00:12)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 00:36 - 00:57  (00:20)
+reboot   system boot  4.10.0-28-generi Sat Dec  9 00:33 - 00:57  (00:23)
+
+wtmp begins Sat Dec  9 00:33:51 2017
+
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+cru3l     Cru3L     *tty1           Jan  5 17:58
+cru3l     Cru3L      tty7           Jan  5 17:57 (:0)
+
+ 11:32:00 up 35 min,  2 users,  load average: 0,45, 0,33, 0,42
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+cru3l    tty1                      17:58     ?     0.18s  0.15s -bash
+cru3l    tty7     :0               17:57     ?    44.29s  1.51s /sbin/upstart
+
