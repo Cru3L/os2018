@@ -1,0 +1,28 @@
+cru3l@cru3l-PE60-6QD:~$ ls | grep 'list' // dont have any file name 'list'
+cru3l@cru3l-PE60-6QD:~$ cat < /etc/passwd | wc -l
+43
+
+cru3l@cru3l-PE60-6QD:~$ free -h | awk '/Mem\:/ {print $2}'
+7,7G
+
+cru3l@cru3l-PE60-6QD:~$ cat /proc/cpuinfo | grep 'core'
+core id		: 0
+cpu cores	: 4
+core id		: 1
+cpu cores	: 4
+core id		: 2
+cpu cores	: 4
+core id		: 3
+cpu cores	: 4
+core id		: 0
+cpu cores	: 4
+core id		: 1
+cpu cores	: 4
+core id		: 2
+cpu cores	: 4
+core id		: 3
+cpu cores	: 4
+
+cru3l@cru3l-PE60-6QD:~$ find Pictures -name "*.jpg" |wc -l
+1
+
