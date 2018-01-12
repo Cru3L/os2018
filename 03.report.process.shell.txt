@@ -1,0 +1,69 @@
+
+cru3l@cru3l-PE60-6QD:~$ ps -f
+
+UID        PID  PPID  C STIME TTY          TIME CMD
+cru3l     2796  2683  0 03:25 pts/2    00:00:00 bash
+cru3l     4644  2796  0 03:28 pts/2    00:00:00 ps -f
+
+cru3l@cru3l-PE60-6QD:~$ ps aux | grep -i gnome-calculator | awk {'print$2'}
+5101
+22688
+cru3l@cru3l-PE60-6QD:~$ cat /proc/5101/status
+Name:	gnome-calculato
+Umask:	0002
+State:	T (stopped)
+Tgid:	5101
+Ngid:	0
+Pid:	5101
+PPid:	2796
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	4 24 27 30 46 113 128 1000 
+NStgid:	5101
+NSpid:	5101
+NSpgid:	5101
+NSsid:	2796
+VmPeak:	  860232 kB
+VmSize:	  794960 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   35520 kB
+VmRSS:	   35516 kB
+RssAnon:	    6980 kB
+RssFile:	   28492 kB
+RssShmem:	      44 kB
+VmData:	   64536 kB
+VmStk:	     132 kB
+VmExe:	     392 kB
+VmLib:	   60696 kB
+VmPTE:	     536 kB
+VmPMD:	      12 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+Threads:	4
+SigQ:	0/31258
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000000001000
+SigCgt:	0000000180000000
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	1686
+nonvoluntary_ctxt_switches:	62
+
+cru3l@cru3l-PE60-6QD:~$ kill -STOP 5101
+cru3l@cru3l-PE60-6QD:~$ kill -CONT 5101
+cru3l@cru3l-PE60-6QD:~$ kill -KILL 5101
+
