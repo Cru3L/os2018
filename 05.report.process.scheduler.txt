@@ -1,0 +1,6 @@
+cru3l@cru3l-PE60-6QD:~$ cat /proc/sched_debug | awk '/systemd / {print $2}' 
+1
+1247
+cru3l@cru3l-PE60-6QD:~$ cat /proc/1/sched | grep nr_switches
+nr_switches                                  :                 1493
+
