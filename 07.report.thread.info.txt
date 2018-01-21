@@ -1,0 +1,8 @@
+cru3l@cru3l-PE60-6QD:~$ pgrep -x firefox
+2284
+cru3l@cru3l-PE60-6QD:~$ ps -o nlwp 2284
+NLWP
+  66
+cru3l@cru3l-PE60-6QD:~$ ls /proc/2284/task | wc -l
+66
+
